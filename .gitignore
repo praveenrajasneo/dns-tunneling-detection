@@ -1,0 +1,36 @@
+# Dataset files
+data/
+*.csv
+*.pcap
+*.pcapng
+
+# Trained models (large files)
+models/*.h5
+models/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Outputs and logs
+outputs/
+*.log
+
+# IDE
+.vscode/
+.idea/
